@@ -52,8 +52,10 @@
 
                 // Create a FeatureLayer (replace the URL with your layer's URL)
                 const layer = new FeatureLayer({
-                    // url: "https://services.arcgis.com/.../FeatureServer/0"
+                    // url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/survey123_1911923b962544fdbe7db292e71500c2_results/FeatureServer"
                 });
+
+                map.add(layer);
 
                 // Create the Locate widget and add it to the view
                 const locateBtn = new Locate({
